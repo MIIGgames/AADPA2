@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
+    list-style: none;
 }
 
 header {
@@ -22,7 +23,7 @@ header {
 }
 
 .logo h1 {
-    color: #fff;
+    color: white;
 }
 
 .nav-list {
@@ -43,23 +44,17 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: #fff;
+    color: white;
     font-weight: 400;
 }
 
-.login-button button {
-    border: none;
-    padding: 10px 15px;
+.nav-link:hover {
+    transition: all 0.1s ease;
+    background: #464646;
+    padding: 10px;
     border-radius: 5px;
-    background-color: #0187a7;
 }
 
-.login-button button a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
 
 .mobile-menu-icon {
     display: none;
@@ -69,42 +64,27 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 730px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
-    .open {
-        display: block;
-    }
+/* ======================
+         Banner Css 
+=========================*/
+
+section#banner {
+    background-image: url(../img/action-1867014.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+}
+
+section#banner .texto-banner {
+    margin: 30vh  30px auto;
+    justify-items: left;
+    font-size: 18px;
+    padding: 10px;
+    width: auto;
+}
+
+section#banner .texto-banner p {
+    justify-content: left;
 }
