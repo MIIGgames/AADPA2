@@ -44,4 +44,10 @@
         justify-items: left;
     }
     
+    section#home {
+        margin-top: 650px;
+        background: white;
+        padding: 10px;
+        font-family: sans-serif;
+    }
 }
