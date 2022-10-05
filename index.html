@@ -18,10 +18,10 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>                    
-                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>                    
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#fotos" class="nav-link">Fotos</a></li>                    
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>                    
                 </ul>
             </div>
             <div class="mobile-menu-icon">
@@ -30,10 +30,10 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#fotos" class="nav-link">Fotos</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
             </ul>
         </div>
     </header>
@@ -62,7 +62,7 @@
         </div>
     </section>
     <!-- ============ -->
-    <section id = "portfolio" class = "vh-100 py-7">
+    <section id = "fotos" class = "vh-100 py-7">
         <div class = "container">
             <div class = "portfolio-content">
                 <div class = "title">
@@ -73,19 +73,19 @@
                 </div>
 
                 <div class = "portfolio-grid grid">
-                    <div><img src = "assets/img/img/action-1867014.jpg"></div>
-                    <div><img src = "assets/img/img/am.jpg"/></div>
-                    <div><img src = "assets/img/img/am.jpg"/></div>
-                    <div><img src = "assets/img/img/am.jpg"/></div>
-                    <div><img src = "assets/img/img/am.jpg"/></div>
-                    <div><img src = "assets/img/img/am.jpg"/></div>
-                    <div><img src = "assets/img/img/am.jpg"/></div>
+                    <div><img src = "assets/img/img/action-1867014.jpg"></div>                    
+                    <div><img src = "assets/img/img/action-1867014.jpg"></div>                    
+                    <div><img src = "assets/img/img/action-1867014.jpg"></div>                    
+                    <div><img src = "assets/img/img/action-1867014.jpg"></div>                    
+                    <div><img src = "assets/img/img/action-1867014.jpg"></div>                    
+                    <div><img src = "assets/img/img/action-1867014.jpg"></div>                 
+                    <div><img src = "assets/img/img/action-1867014.jpg"></div>                 
                 </div>
             </div>
         </div>
     </section>
     <!-- ============ -->
-    <section id = "contact" class = "py-7">
+    <section id = "contato" class = "py-7">
         <div class = "container">
             <div class = "contact-content flex">
                 <div class = "contact-left">
@@ -105,15 +105,37 @@
                     </form>
                 </div>
                 <div class = "contact-right">
-                    <img src = "images/contact-pic.jpg" alt = "contact image">
+                    <img src = "assets/img/img/action-1867014.jpg" alt = "contact image">
+                    <p>Presidente</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- ============== -->
-    <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sunt laudantium repellat, a praesentium rerum nisi quae expedita quos nobis atque, voluptates voluptate accusamus fugit placeat harum sit magnam id!</p>
+    <footer id = "footer" class = "py-7">
+        <div class = "container">
+            <div class = "footer-content">
+                <div>
+                    <h3>Eldo Cabral</h3>
+                    <div><img src = "img/insta-pic.jpg"></div>
+                </div>
+
+                <div>
+                    <h3>Links</h3>
+                    <ul class = "flex">
+                        <li><a href = "#about">Sobre mim</a></li>
+                        <li><a href = "#contato">Contato</a></li>
+                        <li><a href = "https://www.instagram.com/oithiagom/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script>
+    class typeWriting{constructor(a){this.element=a,this.words=JSON.parse(a.getAttribute('data-words')),this.speed=parseInt(a.getAttribute('data-speed'),10)||100,this.delay=parseInt(a.getAttribute('data-delay'),10)||1e3,this.loop=a.getAttribute('data-loop'),this.char='',this.counter=0,this.isDeleting=!1,this.type()}type(){const a='yes'===this.loop?this.counter%this.words.length:this.counter,b=this.words[a];let c=this.speed;if(this.isDeleting?(c/=2,this.char=b.substring(0,this.char.length-1)):this.char=b.substring(0,this.char.length+1),this.element.innerHTML=`<span class="write">${this.char}</span><span class="blinking-cursor">|</span>`,!this.isDeleting&&this.char===b){if('no'===this.loop&&this.counter>=this.words.length-1)return;this.isDeleting=!0,c=this.delay}else this.isDeleting&&''===this.char&&(this.isDeleting=!1,this.counter++);setTimeout(()=>this.type(),c)}}document.addEventListener('DOMContentLoaded',init);function init(){document.querySelectorAll('.typewrite').forEach(a=>new typeWriting(a))
+    }
+    </script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/menu-ancora.js"></script>
 </body>
 </html>
