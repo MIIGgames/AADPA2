@@ -8,6 +8,14 @@ html{
     font-size: 10px;
     scroll-behavior: smooth;
 }
+
+h1, h2, h3{
+    margin-top: 0;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    color: black;
+}
+
 body{
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
@@ -17,6 +25,10 @@ body{
 header {
     background-color: #24252a;
     box-shadow: 0px 3px 10px #464646;
+}
+
+section h2 {
+    text-transform: uppercase;
 }
 
 .nav-bar {
@@ -121,26 +133,29 @@ section#home {
 }
 
 .home p {
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 10px;
     font-size: 18px;
 }
 
 .home ul {
     padding: 10px;
-    margin: 5px 20px;
+    margin: 0px 20px;
 }
 
 .home ul li {
     justify-items: left;
     font-size: 18px;
     list-style: decimal;
-    margin-top: 10px;
 }
 
 /* ======================
      Section Galeria
 =========================*/
+section#portfolio {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+}
+
 img{
     width: 100%;
     display: block;
@@ -153,12 +168,7 @@ img{
 .vh-100{
     min-height: 100vh;
 }
-h1, h2, h3{
-    margin-top: 0;
-    line-height: 1.3;
-    margin-bottom: 2rem;
-    color: var(--dark-color);
-}
+
 .flex{
     display: flex;
     align-items: center;
@@ -190,6 +200,50 @@ h1, h2, h3{
 .portfolio-grid div > img {
     width: 100%;
     background-size: cover;
+}
+
+/* contact */
+#contact{
+    background-color: rgb(248, 248, 248);
+}
+.contact-content{
+    flex-direction: column;
+    align-items: stretch;
+}
+.contact-left{
+    margin-bottom: 5rem;
+}
+.contact-left .lead{
+    padding: 0.5rem;
+}
+.contact-left form{
+    margin-top: 3rem;
+}
+.contact-left form .form-control{
+    display: block;
+    margin: 1.6rem 0;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    width: 100%;
+}
+.contact-left form .form-control::placeholder{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-left .btn-submit{
+    padding: 1.4rem 3rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: var(--light-color);
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    transition: var(--transition);
+}
+.contact-left .btn-submit:hover{
+    background-color: #000;
+    color: white;
 }
 
 
