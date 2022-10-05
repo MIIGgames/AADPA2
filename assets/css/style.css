@@ -116,3 +116,15 @@ section#home {
     padding: 10px;
     font-size: 18px;
 }
+
+.home ul {
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+.home ul li {
+    justify-items: left;
+    font-size: 18px;
+    list-style: decimal;
+    margin-top: 10px;
+}
