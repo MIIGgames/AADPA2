@@ -58,7 +58,7 @@
     }
 
     .projetos .bloco2 {
-        width: 300px;
-        text-align: center;
+        width: 350px;
+        justify-self: left;
     }
 }
