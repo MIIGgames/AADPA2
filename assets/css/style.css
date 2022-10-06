@@ -9,13 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
-
-h1, h2, h3{
-    margin-top: 0;
-    line-height: 1.3;
-    margin-bottom: 2rem;
-    color: black;
-}
+hr {background-color: #000;}
 
 body{
     font-size: 1.8rem;
@@ -119,7 +113,7 @@ section#banner .texto-banner p {
 =========================*/
 
 section#home {
-    margin-top: 700px;
+    margin-top: 650px;
     background: white;
     padding: 10px;
     font-family: sans-serif;
@@ -206,6 +200,38 @@ img{
 .portfolio-grid div > img {
     width: 100%;
     background-size: cover;
+}
+
+/* ======================
+     Section Projetos
+=========================*/
+
+section#projetos {
+    max-width: 1200px;
+    padding: 10px;
+    justify-items: left;
+    margin: auto;
+    margin-top: 10px;
+}
+
+section#projetos h2 {
+    border-bottom: 3px solid black;
+    width: 300px;
+}
+
+section#projetos .projetos {
+    display: flex;
+    padding: 10px;
+}
+
+.projetos .bloco1 ul {
+    list-style-type: decimal;
+    margin: 10px 20px;
+}
+
+.projetos .bloco2 {
+    width: 650px;
+    justify-items: left;
 }
 
 /* contact */

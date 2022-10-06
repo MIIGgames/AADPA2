@@ -45,9 +45,20 @@
     }
     
     section#home {
-        margin-top: 700px;
+        margin-top: 750px;
         background: white;
         padding: 10px;
         font-family: sans-serif;
+    }
+
+    section#projetos .projetos {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .projetos .bloco2 {
+        width: 400px;
+        text-align: center;
     }
 }
