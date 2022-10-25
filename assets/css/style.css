@@ -217,6 +217,7 @@ section#projetos {
 section#projetos h2 {
     border-bottom: 3px solid black;
     width: 300px;
+    font-size: 3.5rem;
 }
 
 section#projetos .projetos {
