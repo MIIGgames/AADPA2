@@ -80,5 +80,15 @@
         width: 350px;
         justify-self: left;
     }
+
+    .novidades .caixa-novidades {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #bloco-03, #bloco-04 {
+        display: none;
+    }
     /* Home */
 }
