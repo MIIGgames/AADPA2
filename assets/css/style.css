@@ -209,6 +209,7 @@ section#deveres .deveres {
 }
 
 .bg-1 .texto {
+    width: auto;
     border-radius: 2px;
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.367);
     gap: 10px;
@@ -329,7 +330,7 @@ section#deveres .deveres {
       li:nth-child(2) .slide-circulo,
 #slide-3:checked ~ .control-3 ~ .slide-indicador 
       li:nth-child(3) .slide-circulo {
-    color: #428bca;
+    color: #fff;
 }
 #titulo {
     width: 100%;
@@ -346,8 +347,6 @@ section#deveres .deveres {
 }
 
 /* ------------------ */
-
-
 
 section#fotos {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
