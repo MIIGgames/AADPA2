@@ -160,7 +160,7 @@ section#novidades .novidades {
 
 .novidades .caixa-novidades {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .caixa-novidades .bloco-01 {
@@ -188,7 +188,7 @@ section#novidades .novidades {
 =========================*/
 
 section#deveres {
-    background: #ffff;
+    background: #4646460b;
 }
 
 section#deveres .deveres {
@@ -598,3 +598,28 @@ section#projetos {
         grid-column: 1 / 3;
     }
 }
+
+
+/* Animação */
+
+[data-anime] {
+    opacity: 0;
+    transition: .1s;
+  }
+  
+  [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+  }
+  
+  [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+  }
+  
+  [data-anime="top"] {
+    transform: translate3d(0, -50px, 0);
+  }
+  
+  [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
