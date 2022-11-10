@@ -43,12 +43,27 @@
         margin-left: auto;
         justify-items: left;
     }
-    
-    section#home {
-        margin-top: 750px;
-        background: white;
+
+    .deveres .bloco-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .bloco-2 .bg-1 {
+        margin-top: 1px;
         padding: 10px;
-        font-family: sans-serif;
+        gap: 10px;
+    }
+
+    .home .sant-bloco li {
+        margin-top: 30px;
+    }
+
+    .home .sant-bloco {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
     }
 
     section#projetos .projetos {

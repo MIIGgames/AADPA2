@@ -113,38 +113,81 @@ section#banner .texto-banner p {
 =========================*/
 
 section#home {
-    margin-top: 650px;
-    background: white;
-    padding: 10px;
-    font-family: sans-serif;
+    margin-top: 65rem;
+    padding: 20px;
 }
 
-.home {
-    margin: auto;
-    justify-items: left;
-    font-size: 16px;
+.texto-h2 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.texto-h2 span {
+    color: #778899;
+}
+
+section#home .home {
     max-width: 1200px;
-}
-
-.home h2 {
-    font-size: 28px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 2px gray;
 }
 
 .home p {
-    margin-top: 5px;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.home ul {
-    padding: 10px;
-    margin: 0px 20px;
-}
-
-.home ul li {
     justify-items: left;
-    font-size: 18px;
-    list-style: decimal;
+    padding: 10px;
+}
+
+
+/* ======================
+     Section Deveres
+=========================*/
+
+section#deveres {
+    background: #ffff;
+}
+
+section#deveres .deveres {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.deveres .bloco-2 {
+    display: flex;
+    gap: 10px;
+}
+
+.bloco-2 .bg-1 {
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.bg-1 .texto {
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.367);
+    gap: 10px;
+}
+
+.bg-1 .texto:hover {
+    transition: 0.5s;
+    padding: 2px;
+}
+
+.bloco-2 .bg-1 .bola {
+    margin: 0px 10px;
+    font-size: 2.5rem;
+    border-radius: 100px;
+    color: black;
+}
+
+.bg-1 p {
+    width: auto;
+    margin-top: 5px;
+    color: black;
+    padding: 10px;
+    font-family: sans-serif;
 }
 
 /* ======================
