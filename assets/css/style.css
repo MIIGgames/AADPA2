@@ -37,11 +37,11 @@ section h2 {
     align-items: center;
 }
 
-.logo .icon {
+.logo .logo {
     border-radius: 100px;
     background-size: cover;
     background-position: center;
-    width: 90px;
+    width: 70px;
     height: 70px;
 }
 
@@ -75,6 +75,9 @@ section h2 {
     border-radius: 5px;
 }
 
+.mobile-menu-icon .icon {
+    height: 6rem;
+}
 
 .mobile-menu-icon {
     display: none;
@@ -118,7 +121,7 @@ section#banner .texto-banner p {
 
 section#home {
     margin-top: 65rem;
-    padding: 20px;
+    padding: 10px;
 }
 
 .texto-h2 {
@@ -134,7 +137,6 @@ section#home .home {
     max-width: 1200px;
     margin: auto;
     padding: 10px;
-    box-shadow: 1px 1px 2px 2px gray;
 }
 
 .home p {
@@ -156,6 +158,10 @@ section#novidades .novidades {
     padding: 10px;
 }
 
+.novidades .caixa-novidades {
+    padding: 10px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.193);
+}
 
 /* ======================
      Section Deveres

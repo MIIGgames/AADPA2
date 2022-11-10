@@ -50,6 +50,10 @@
         gap: 5px;
     }
 
+    section#home {
+        margin-top: 70rem;
+    }
+
     .bloco-2 .bg-1 {
         margin-top: 1px;
         padding: 10px;
