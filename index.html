@@ -13,32 +13,27 @@
     <title>Associação Atlética de Desporto Paralímpico do Amazonas</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <img class="logo" src="icons/ASSOCIAÇÃO ATLÉTICA DE DESPORTO PARALÍMPICO DO AMAZONAS (1).png" alt="">
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#fotos" class="nav-link">Fotos</a></li>                    
-                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>                    
-                </ul>
-            </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
-            </div>
+
+    <header class="header">
+        <img class="logo" src="icons/ASSOCIAÇÃO ATLÉTICA DE DESPORTO PARALÍMPICO DO AMAZONAS (1).png" alt="">
+        <nav class="nav">
+          <button
+            class="btn-menu"
+            aria-label="Abrir Menu"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+            >
+            Menu<span class="hamburger"></span>
+          </button>
+          <ul class="menu" id="menu" role="menu">
+            <li><a href="#novidade">Novidade</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#documentos">Documentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
         </nav>
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#fotos" class="nav-link">Fotos</a></li>
-                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
-            </ul>
-        </div>
-    </header>
+      </header>
 
     <!-- Banner -->
 
