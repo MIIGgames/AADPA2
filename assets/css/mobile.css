@@ -34,6 +34,7 @@
 	  color: #fff;
 	  padding: 1rem 0;
 	  cursor: pointer;
+      font-size: 2.5rem;
 	}
 	.hamburger {
 	  border-top: 0.125rem solid;
@@ -136,6 +137,12 @@
         padding: 5px;
         top: 10px;
         bottom: 10px;
+    }
+
+    .bloco-4 {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
     }
     /* Home */
 }
