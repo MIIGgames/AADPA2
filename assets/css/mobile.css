@@ -144,5 +144,17 @@
         display: flex;
         flex-direction: column;
     }
+
+    section#banner {
+        background-image: url(../img/action-1867014.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 90vh;
+        width: 100%;
+        position: absolute;
+        box-shadow: 2px 2px 2px gray;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
     /* Home */
 }

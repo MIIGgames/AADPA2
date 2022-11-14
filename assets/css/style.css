@@ -62,7 +62,7 @@ body{
 
 section#banner {
     background-image: url(../img/action-1867014.jpg);
-    background-position: top;
+    background-position: top center;
     background-size: cover;
     height: 90vh;
     width: 100%;
@@ -90,7 +90,6 @@ section#banner .texto-banner p {
 
 section#home {
     margin-top: 65rem;
-    padding: 10px;
 }
 
 .texto-h2 {
@@ -111,7 +110,7 @@ section#home .home {
 
 .home p {
     justify-items: left;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* ======================
@@ -409,7 +408,7 @@ section#projetos {
     padding: 0.5rem;
 }
 .contact-left form{
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .contact-left form .form-control{
     display: block;
