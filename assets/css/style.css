@@ -15,6 +15,7 @@ body{
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 .header {
@@ -229,7 +230,7 @@ section#deveres .deveres {
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
 }
-.slide-item img {
+.slide-item video {
     display: block;
     height: auto;
     max-width: 100%;
