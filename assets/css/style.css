@@ -61,8 +61,8 @@ body{
 =========================*/
 
 section#banner {
-    background-image: url(../img/action-1867014.jpg);
-    background-position: top center;
+    background-image: url(../img/img/img-1\ \(1\)\ \(1\).jpg);
+    background-position: center;
     background-size: cover;
     height: 90vh;
     width: 100%;
@@ -78,10 +78,12 @@ section#banner .texto-banner {
     font-size: 18px;
     padding: 10px;
     width: auto;
+    color: #fff;
 }
 
 section#banner .texto-banner p {
     justify-content: left;
+    color: #fff;
 }
 
 /* ======================
@@ -266,7 +268,8 @@ section#deveres .deveres {
 }
 #slide-1:checked ~ .control-1,
 #slide-2:checked ~ .control-2,
-#slide-3:checked ~ .control-3 {
+#slide-3:checked ~ .control-3,
+#slide-4:checked ~ .control-4 {
     display: block;
 }
 .slide-indicador {
@@ -298,7 +301,9 @@ section#deveres .deveres {
 #slide-2:checked ~ .control-2 ~ .slide-indicador 
       li:nth-child(2) .slide-circulo,
 #slide-3:checked ~ .control-3 ~ .slide-indicador 
-      li:nth-child(3) .slide-circulo {
+      li:nth-child(3) .slide-circul,
+#slide-4:checked ~ .control-4 ~ .slide-indicador 
+      li:nth-child(4) .slide-circul {
     color: #fff;
 }
 #titulo {
